@@ -8,7 +8,7 @@ Eğer aradığınız soruların cevapları GitHub docs'ta yok ise Google'lama be
 
 1. Git nedir? 
 Git, yazılım geliştirme süreçlerinde kullanılan bir versiyon kontrol sistemidir.
-2. Git ile GitHub arasında ne fark var?
+3. Git ile GitHub arasında ne fark var?
 Git bir versiyon kontrol sistemidir. GitHub ise bu versiyon kontrol sistemi ile kullandığımız projeleri depolayabildiğimiz bir portal diyebiliriz ama tabii ki bu kadar basit değildir.
 3. Neden bir branch oluşturuyoruz? 
 Branch oluşturmak kullanıcıya çalıştığı projenin farklı versiyonlarına erişmesini sağlar.
@@ -17,6 +17,7 @@ Github ve açık kaynak yazılım ile yazılım dünyasına katılmıştır. Bir
 5. Bir Branchten diğerine geçmek için kullanıdığımız KOMUT nedir? Örneğin ADINIZ-SOYADINIZ branch'inde çalıştığınızı hayal edin ve main branch'ine geçmek istiyorsunuz.
 -b komutudur.
 6. `git fetch`, `git merge` ve `git pull` arasındaki farklıarı açıklayınız. Bu konutlar ne yapar açıklayınız.
+`git fetch`, `git merge` ve `git pull` arasındaki farklıarı açıklayınız. Bu konutlar ne yapar açıklayınız.
 Git Fetch ve Git Pull arasındaki temel fark, git fetch’in kaynaktan en yeni meta veri bilgilerini geri yüklemek için yerel git’inizi gösteren komut olmasıdır. Herhangi bir dosya aktarmaz. Git pull önce bir git fetch yapar, sonrasında ise git merge uygular. 
 7. Merge conflict nedir?
 İki kişi aynı dosyayı ve aynı satırı değiştirirse ve git otomatik olarak merge edemezse bu durumda conflict yani çakışma olacaktır.
